@@ -49,6 +49,16 @@
     <Compile Include="DatabaseHelpers\SqlHelper.cs" />
     <Compile Include="DescriptionAttribute.cs" />
     <Compile Include="Metering\InstrumentationHelper.cs" />
+    <Compile Include="MVP\ApproveBorrowerMismatchesEventArgs.cs" />
+    <Compile Include="MVP\BorrowerMismatch.cs" />
+    <Compile Include="MVP\BorrowerMismatchPresenter.cs" />
+    <Compile Include="MVP\BorrowerMismatchRepository.cs" />
+    <Compile Include="MVP\BorrowerMismatchUI.cs" />
+    <Compile Include="MVP\CancelBorrowerMismatchesEventArgs.cs" />
+    <Compile Include="MVP\IBorrowerMismatch.cs" />
+    <Compile Include="MVP\IBorrowerMismatchRepository.cs" />
+    <Compile Include="MVP\IView.cs" />
+    <Compile Include="MVP\SearchBorrowerMismatchesEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="TimeZone\TimeZoneHelper.cs" />
